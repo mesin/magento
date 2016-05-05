@@ -8,5 +8,7 @@
 #
 
 run_list(
-  "recipe[php]"
+  "recipe[php]",
+  "recipe[apache2]",
+  "recipe[apache2::mod_ssl]"
 )
