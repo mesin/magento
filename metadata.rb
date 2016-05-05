@@ -1,0 +1,7 @@
+name             'magento'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures magento'
+long_description 'Installs/Configures magento'
+version          '0.1.0'
