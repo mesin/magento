@@ -1,10 +1,8 @@
 # magento-cookbook
 
-TODO: Enter the cookbook description here.
+## Cookbook Sources
 
-## Supported Platforms
-
-TODO: List your supported platforms.
+- https://supermarket.chef.io/cookbooks/apache2
 
 ## Attributes
 
