@@ -1,7 +1,11 @@
 name             'magento'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Dmitri Meshin'
 license          'All rights reserved'
 description      'Installs/Configures magento'
 long_description 'Installs/Configures magento'
 version          '0.1.0'
+
+depends 'php'
+depends 'apache2'
+depends 'apache2::mod_ssl'
+depends 'apache2::mod_php5'
