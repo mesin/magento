@@ -3,6 +3,7 @@
 ## Cookbook Sources
 
 - https://supermarket.chef.io/cookbooks/apache2
+- https://supermarket.chef.io/cookbooks/php
 
 ## Attributes
 
@@ -23,18 +24,10 @@
 
 ## Usage
 
-### magento::default
+### magento::install
 
-Include `magento` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[magento::default]"
-  ]
-}
-```
+Runs installation of all the required software
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Dmitri Meshin
