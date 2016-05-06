@@ -7,5 +7,3 @@ version          '0.1.0'
 
 depends 'php'
 depends 'apache2'
-depends 'apache2::mod_ssl'
-depends 'apache2::mod_php5'
